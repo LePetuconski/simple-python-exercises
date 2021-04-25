@@ -1,0 +1,10 @@
+idadeAnos = 22;
+idadeDias = idadeAnos * 365;
+idadeHoras = (idadeAnos * 365) * 24;
+idadeMinutos = ((idadeAnos * 365) * 24) * 60;
+idadeSegundos = (((idadeAnos * 365) * 24) * 60) * 60;
+print(f'A idade em anos é: {idadeAnos} \n');
+print(f'A idade em dias é: {idadeDias} \n');
+print(f'A idade em horas é: {idadeHoras} \n');
+print(f'A idade em minutos é: {idadeMinutos} \n');
+print(f'A idade em segundos é: {idadeSegundos}');
